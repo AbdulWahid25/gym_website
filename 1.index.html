@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Fitness</title>
+    <style>
+        
+        .form1{
+            position: relative;
+            top: 44px;
+            color: white;
+            border: 2px solid white;
+            width: 508px;
+            text-align: center;
+            font-family:cursive;
+            display: block;
+            margin:33px;
+           padding: 25px;
+           font-size:10px;
+        }
+        .form1 button{
+            margin:  auto;
+            width: 180px;
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        }
+        
+        body{
+            background-image: url(/Project-1/adult-g51df43f0a_1280.jpg);
+        
+        }
+        .navbar
+{
+    
+border-radius: 18px;
+display: block;
+            width: 55%;
+            margin: 22px auto;
+
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+ display: inline-block;
+ padding: 4px 6px;
+ margin:  4px 22px;
+}
+.navbar li a{
+    text-decoration: none;
+color: white;
+
+}
+.btn{
+    float: right;
+    border-radius:122px;
+    margin:0px ;
+    padding: auto;
+
+
+}
+.navbar input{
+            border: 3px solid rgb(235, 234, 234);
+            border-radius: 13px;
+        
+        
+
+        }
+        .navbar li a:hover{
+            background-color: rgb(102, 255, 0);}
+ 
+    
+.left img{
+    width: 80px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="left">
+        <img src="images/gym.png" alt="">
+        <div style="color: white;">fitness</div>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact us</a></li>
+            
+        </ul>
+    </nav>
+    <div class="Right">
+    <button class="btn">Call us now</button>
+    <button class="btn">Email us</button>
+</div>
+
+    <form action="backend.js">
+        <div class="form1">
+        <h1>Join the best gym of Delhi now</h1>
+        <input type="text" placeholder="Enter your Name" id="Name"><br><br>
+        <input type="text" placeholder="Enter your Age" id="Age"><br><br>
+        <input type="text" placeholder="Enter your Gender" id="Gender"><br><br>
+        <input type="text" placeholder="Enter your Locality" id="Locality"><br><br>
+        <button>Submit</button>
+        </div>
+    </form>
+</body>
+</html>

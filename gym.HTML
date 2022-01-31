@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(/Project-1/adult-g51df43f0a_1280.jpg);
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            top: 28px;
+            left: 23px;
+            color: white;
+            /* border: 2px solid red; */
+        }
+
+        .logo {
+            font-size: 33px;
+        }
+
+        .mid {
+            display: block;
+            width: 55%;
+            margin: 22px auto;
+            /* for center the element we have to set following three property display width margin
+            display: block;
+            width: 33%;
+            margin: 21px auto; */
+            color: white;
+            /* border: 2px solid green; */
+        }
+
+        .navbar{
+            /* display: inline-block; */
+            /* float: left;
+            list-style: none; 
+            /* margin: 9px 9px; */
+         text-align: center;
+        }
+        .navbar li  {
+            display: inline-block;
+            /* float: left;
+            list-style: none; 
+            /* margin: 9px 9px; */
+            padding: 8px 9px;
+            font-weight: bold;
+            font-size: 33px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: gray;
+            text-decoration: gray;
+        }
+
+        .Right{
+            display: inline-block;
+            position: absolute;
+            top: 35px;
+            right: 23px;
+            /* color: white; */
+        
+        }
+
+        .form1 {
+            border: 2px solid gray;
+            margin: 99px 464px;
+            padding: 3px 3px;
+            border-radius: 22px;
+            width: 33%;
+            text-align: center;
+        
+
+        }
+
+        .form1 button {
+            width: 175px;
+            color: white;
+            border: 1px solid black;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for l0go -->
+        <div class="left">
+            <div class="logo">
+                <i class="fas fa-dumbbell"></i>
+            </div>
+            <div>
+                Fitness
+            </div>
+
+        </div>
+        <!-- mid  box for navbar -->
+        <div class="mid">
+            <div class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </div>
+        </div>
+        <!-- right box for button -->
+        
+    </header>
+
+    <form action="backend.js">
+        <div class="form1">
+            <h1 style="color: white;">Join the best gym of Hyderabad now</h1>
+            
+            <input type="text" placeholder="Enter your Name" id="Name"><br><br>
+            <input type="text"  placeholder="Enter your Age" id="Age"><br><br>
+            <input type="text" placeholder="Enter your Gender" id="Gender"><br><br>
+            <input type="text" placeholder="Enter your Locality" id="Locality"><br><br>
+            <button class="btn">Submit</button>
+        </div>
+        </form>
+        <div class="Right">
+            <!-- <button class="btn">Call us now</button>
+            <button class="btn">Email us</button> -->
+            <input type="button" value="Call us now">
+            <input type="button" value="Email us">
+        </div>
+</body>
+
+</html>
